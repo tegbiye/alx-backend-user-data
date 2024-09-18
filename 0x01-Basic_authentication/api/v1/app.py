@@ -18,6 +18,7 @@ auth_tyoe = getenv('AUTH_TYPE', 'auth')
 if auth_tyoe == 'auth':
     auth = Auth()
 
+
 @app.errorhandler(401)
 def unauthorized(error) -> str:
     """Unauthorized handler.
