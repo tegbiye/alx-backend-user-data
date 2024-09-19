@@ -66,4 +66,3 @@ class SessionExpAuth(SessionAuth):
             return None
 
         return session_dictionary.get('user_id')
-    
